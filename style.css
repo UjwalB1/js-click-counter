@@ -1,0 +1,46 @@
+#countLabel {
+    display: block;
+    text-align: center;
+    font-size: 15em;
+    font-family: Helvetica, sans-serif;
+}
+
+#buttonContainer{
+    text-align: center;
+}
+
+.button{
+    margin: 10px;
+    padding: 30px 30px;
+    font-size: 3em;
+    color: white;
+    background-color: hsla(271, 76%, 53%, 0.547);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+
+.button:hover {
+    background-color: blueviolet;
+}
+
+body{
+    background-image: url("images/529837687_1286283256497077_3556015853127506099_n.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+#decreaseButton{
+    box-shadow: 5px 5px 5px rgb(80, 41, 124), -5px -5px 5px rgba(72, 79, 213, 0.597) ;
+}
+#increaseButton{
+    box-shadow: 5px 5px 5px rgb(80, 41, 124), -5px -5px 5px rgba(72, 79, 213, 0.597) ;
+}
+#resetButton{
+    box-shadow: 5px 5px 5px rgb(80, 41, 124), -5px -5px 5px rgba(72, 79, 213, 0.597) ;
+}
+#countLabel{
+    text-shadow: 5px 5px 5px rgb(80, 41, 124), -20px -5px 5px rgba(72, 79, 213, 0.597) ;
+}
